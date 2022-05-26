@@ -1,0 +1,3385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\ccadic\CloudStation\esp32solarminer\esp32solarminer\esp32solarminer.sch</source>
+    <date>26/05/2022 18:46:28</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32 SOLAR MINER</title>
+        <company>@sulfuroid</company>
+        <rev>0.1</rev>
+        <date>2022-05-26</date>
+        <source>esp32solarminer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A6EC24</tstamp>
+    </comp>
+    <comp ref="SW107">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A726D3</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A77A9A</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A788A1</tstamp>
+    </comp>
+    <comp ref="SW105">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A7A413</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A7E17C</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A7EDFD</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A93404</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A96417</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62911818</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6291181F</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6291183C</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62940672</tstamp>
+    </comp>
+    <comp ref="U110">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629441BD</tstamp>
+    </comp>
+    <comp ref="SW116">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62944547</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294455C</tstamp>
+    </comp>
+    <comp ref="C118">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62944569</tstamp>
+    </comp>
+    <comp ref="SW113">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629445BE</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629445D3</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629445DD</tstamp>
+    </comp>
+    <comp ref="SW110">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294464E</tstamp>
+    </comp>
+    <comp ref="C125">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62944678</tstamp>
+    </comp>
+    <comp ref="C116">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294469A</tstamp>
+    </comp>
+    <comp ref="C122">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629446A5</tstamp>
+    </comp>
+    <comp ref="U107">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629446F6</tstamp>
+    </comp>
+    <comp ref="C127">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62944794</tstamp>
+    </comp>
+    <comp ref="U116">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295CAD7</tstamp>
+    </comp>
+    <comp ref="SW123">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D09D</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D0B2</tstamp>
+    </comp>
+    <comp ref="C133">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D0BF</tstamp>
+    </comp>
+    <comp ref="SW121">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D114</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D129</tstamp>
+    </comp>
+    <comp ref="D107">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D133</tstamp>
+    </comp>
+    <comp ref="SW119">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D1A4</tstamp>
+    </comp>
+    <comp ref="C140">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D1CE</tstamp>
+    </comp>
+    <comp ref="C131">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D20E</tstamp>
+    </comp>
+    <comp ref="C136">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D219</tstamp>
+    </comp>
+    <comp ref="U113">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D24C</tstamp>
+    </comp>
+    <comp ref="C142">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D2EA</tstamp>
+    </comp>
+    <comp ref="U120">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D304</tstamp>
+    </comp>
+    <comp ref="SW133">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D30E</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D3B9</tstamp>
+    </comp>
+    <comp ref="C147">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D3C6</tstamp>
+    </comp>
+    <comp ref="SW131">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D405</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D41A</tstamp>
+    </comp>
+    <comp ref="D109">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D424</tstamp>
+    </comp>
+    <comp ref="SW129">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D495</tstamp>
+    </comp>
+    <comp ref="C151">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D4A3</tstamp>
+    </comp>
+    <comp ref="C145">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D4F7</tstamp>
+    </comp>
+    <comp ref="C149">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D502</tstamp>
+    </comp>
+    <comp ref="U118">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D53D</tstamp>
+    </comp>
+    <comp ref="C153">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6295D5DB</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A90206</tstamp>
+    </comp>
+    <comp ref="R125">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A8F572</tstamp>
+    </comp>
+    <comp ref="R128">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A8C2D3</tstamp>
+    </comp>
+    <comp ref="R127">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A8B2D4</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>USB_C_Receptacle</value>
+      <footprint>27sharp:GT-USB-7010</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A84B41</tstamp>
+    </comp>
+    <comp ref="U105">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BECA8</tstamp>
+    </comp>
+    <comp ref="SW108">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF6E6</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF6FB</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF708</tstamp>
+    </comp>
+    <comp ref="SW106">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF71D</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF732</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF7A6</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF7C9</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF817</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF839</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF844</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF895</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF933</tstamp>
+    </comp>
+    <comp ref="U111">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF94D</tstamp>
+    </comp>
+    <comp ref="SW117">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BF957</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFA0A</tstamp>
+    </comp>
+    <comp ref="C119">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFA17</tstamp>
+    </comp>
+    <comp ref="SW114">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFA2C</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFA81</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFA8B</tstamp>
+    </comp>
+    <comp ref="SW111">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFADE</tstamp>
+    </comp>
+    <comp ref="C126">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFAEC</tstamp>
+    </comp>
+    <comp ref="C117">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFB48</tstamp>
+    </comp>
+    <comp ref="C123">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFB53</tstamp>
+    </comp>
+    <comp ref="U108">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFB86</tstamp>
+    </comp>
+    <comp ref="C128">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFC24</tstamp>
+    </comp>
+    <comp ref="U117">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFC54</tstamp>
+    </comp>
+    <comp ref="SW124">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFC5E</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFC73</tstamp>
+    </comp>
+    <comp ref="C134">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFC80</tstamp>
+    </comp>
+    <comp ref="SW122">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFD3F</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFD54</tstamp>
+    </comp>
+    <comp ref="D108">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFD5E</tstamp>
+    </comp>
+    <comp ref="SW120">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFDCF</tstamp>
+    </comp>
+    <comp ref="C141">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFDDD</tstamp>
+    </comp>
+    <comp ref="C132">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFDFF</tstamp>
+    </comp>
+    <comp ref="C137">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFE52</tstamp>
+    </comp>
+    <comp ref="U114">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFE77</tstamp>
+    </comp>
+    <comp ref="C143">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFF15</tstamp>
+    </comp>
+    <comp ref="U121">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFF3D</tstamp>
+    </comp>
+    <comp ref="SW134">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFF47</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629BFF5C</tstamp>
+    </comp>
+    <comp ref="C148">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C0005</tstamp>
+    </comp>
+    <comp ref="SW132">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C001A</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C002F</tstamp>
+    </comp>
+    <comp ref="D110">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C0039</tstamp>
+    </comp>
+    <comp ref="SW130">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C00B8</tstamp>
+    </comp>
+    <comp ref="C152">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C00EA</tstamp>
+    </comp>
+    <comp ref="C146">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C010C</tstamp>
+    </comp>
+    <comp ref="C150">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C0117</tstamp>
+    </comp>
+    <comp ref="U119">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C0168</tstamp>
+    </comp>
+    <comp ref="C154">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629C0206</tstamp>
+    </comp>
+    <comp ref="U106">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A230C9</tstamp>
+    </comp>
+    <comp ref="SW109">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A243F7</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2440C</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A24419</tstamp>
+    </comp>
+    <comp ref="SW104">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2446E</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A24483</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2448D</tstamp>
+    </comp>
+    <comp ref="SW103">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A244FE</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A24528</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A2454A</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A24581</tstamp>
+    </comp>
+    <comp ref="U104">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A245A6</tstamp>
+    </comp>
+    <comp ref="C115">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A24644</tstamp>
+    </comp>
+    <comp ref="U112">
+      <value>ESP32S3WROOM1N8R8</value>
+      <footprint>esp32solarminer:XCVR_ESP32S3WROOM1N8R8</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9A0CA</tstamp>
+    </comp>
+    <comp ref="SW118">
+      <value>BOOT</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B634</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B649</tstamp>
+    </comp>
+    <comp ref="C121">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B656</tstamp>
+    </comp>
+    <comp ref="SW115">
+      <value>RESET</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B66B</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B6D6</tstamp>
+    </comp>
+    <comp ref="D106">
+      <value>ActiveL</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B6E0</tstamp>
+    </comp>
+    <comp ref="SW112">
+      <value>STPSW1</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B73B</tstamp>
+    </comp>
+    <comp ref="C129">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B749</tstamp>
+    </comp>
+    <comp ref="C120">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B7A5</tstamp>
+    </comp>
+    <comp ref="C124">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C83063</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B7B0</tstamp>
+    </comp>
+    <comp ref="U109">
+      <value>ME6211C33M5G-N</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv757p.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV75733PDBV" description="1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B7E3</tstamp>
+    </comp>
+    <comp ref="C130">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9B881</tstamp>
+    </comp>
+    <comp ref="U115">
+      <value>240x280TFT</value>
+      <footprint>18650:240240TFT</footprint>
+      <libsource lib="240x240_SPI-Display" part="240x280TFT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BD949E</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C32175</tstamp>
+    </comp>
+    <comp ref="C135">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C33922</tstamp>
+    </comp>
+    <comp ref="SW125">
+      <value>BUT1</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C33936</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C52E31</tstamp>
+    </comp>
+    <comp ref="C138">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C54626</tstamp>
+    </comp>
+    <comp ref="SW126">
+      <value>BUT2</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C5463A</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C6D264</tstamp>
+    </comp>
+    <comp ref="C139">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C6EAA1</tstamp>
+    </comp>
+    <comp ref="SW127">
+      <value>BUT3</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C6EAB5</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CA15FD</tstamp>
+    </comp>
+    <comp ref="C144">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CA2E82</tstamp>
+    </comp>
+    <comp ref="SW128">
+      <value>BUT4</value>
+      <footprint>27sharp:SKRPABE010</footprint>
+      <libsource lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CA2E96</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>M1</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D4C48B</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>M2</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D4E1F5</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D4E502</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>M4</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D4FDE0</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>ExternalPower5v</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D69885</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="240x240_SPI-Display" part="240x280TFT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">240x280TFT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="LEDK" type="power_in"/>
+        <pin num="3" name="LEDA" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="DC" type="BiDi"/>
+        <pin num="8" name="CS/SS" type="BiDi"/>
+        <pin num="9" name="SCL/SCK" type="BiDi"/>
+        <pin num="10" name="SDA/Mosi" type="BiDi"/>
+        <pin num="11" name="RESET" type="BiDi"/>
+        <pin num="12" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ComputeModule3Board-cache" part="sw_push_45deg_SW_Push_45deg">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">sw_push_45deg_SW_Push_45deg</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle">
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="BiDi"/>
+        <pin num="A3" name="TX1-" type="BiDi"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="BiDi"/>
+        <pin num="A11" name="RX2+" type="BiDi"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="BiDi"/>
+        <pin num="B3" name="TX2-" type="BiDi"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="BiDi"/>
+        <pin num="B11" name="RX1+" type="BiDi"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32S3WROOM1N8R8" part="ESP32S3WROOM1N8R8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32S3WROOM1N8R8</field>
+        <field name="Footprint">XCVR_ESP32S3WROOM1N8R8</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">v1.0</field>
+        <field name="MANUFACTURER">Espressif</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO4" type="BiDi"/>
+        <pin num="5" name="IO5" type="BiDi"/>
+        <pin num="6" name="IO6" type="BiDi"/>
+        <pin num="7" name="IO7" type="BiDi"/>
+        <pin num="8" name="IO15" type="BiDi"/>
+        <pin num="9" name="IO16" type="BiDi"/>
+        <pin num="10" name="IO17" type="BiDi"/>
+        <pin num="11" name="IO18" type="BiDi"/>
+        <pin num="12" name="IO8" type="BiDi"/>
+        <pin num="13" name="IO19" type="BiDi"/>
+        <pin num="14" name="IO20" type="BiDi"/>
+        <pin num="15" name="IO3" type="BiDi"/>
+        <pin num="16" name="IO46" type="BiDi"/>
+        <pin num="17" name="IO9" type="BiDi"/>
+        <pin num="18" name="IO10" type="BiDi"/>
+        <pin num="19" name="IO11" type="BiDi"/>
+        <pin num="20" name="IO12" type="BiDi"/>
+        <pin num="21" name="IO13" type="BiDi"/>
+        <pin num="22" name="IO14" type="BiDi"/>
+        <pin num="23" name="IO21" type="BiDi"/>
+        <pin num="24" name="IO47" type="BiDi"/>
+        <pin num="25" name="IO48" type="BiDi"/>
+        <pin num="26" name="IO45" type="BiDi"/>
+        <pin num="27" name="IO0" type="BiDi"/>
+        <pin num="28" name="IO35" type="BiDi"/>
+        <pin num="29" name="IO36" type="BiDi"/>
+        <pin num="30" name="IO37" type="BiDi"/>
+        <pin num="31" name="IO38" type="BiDi"/>
+        <pin num="32" name="IO39" type="BiDi"/>
+        <pin num="33" name="IO40" type="BiDi"/>
+        <pin num="34" name="IO41" type="BiDi"/>
+        <pin num="35" name="IO42" type="BiDi"/>
+        <pin num="36" name="RXD0" type="BiDi"/>
+        <pin num="37" name="TXD0" type="BiDi"/>
+        <pin num="38" name="IO2" type="BiDi"/>
+        <pin num="39" name="IO1" type="BiDi"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41_1" name="GND" type="power_in"/>
+        <pin num="41_2" name="GND" type="power_in"/>
+        <pin num="41_3" name="GND" type="power_in"/>
+        <pin num="41_4" name="GND" type="power_in"/>
+        <pin num="41_5" name="GND" type="power_in"/>
+        <pin num="41_6" name="GND" type="power_in"/>
+        <pin num="41_7" name="GND" type="power_in"/>
+        <pin num="41_8" name="GND" type="power_in"/>
+        <pin num="41_9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70012_SOT23-5">
+      <aliases>
+        <alias>TLV70013_SOT23-5</alias>
+        <alias>TLV70015_SOT23-5</alias>
+        <alias>TLV70018_SOT23-5</alias>
+        <alias>TLV70019_SOT23-5</alias>
+        <alias>TLV70025_SOT23-5</alias>
+        <alias>TLV70030_SOT23-5</alias>
+        <alias>TLV70032_SOT23-5</alias>
+        <alias>TLV70033_SOT23-5</alias>
+        <alias>TLV70036_SOT23-5</alias>
+        <alias>TLV70212_SOT23-5</alias>
+        <alias>TLV70215_SOT23-5</alias>
+        <alias>TLV70218_SOT23-5</alias>
+        <alias>TLV70225_SOT23-5</alias>
+        <alias>TLV70228_SOT23-5</alias>
+        <alias>TLV70230_SOT23-5</alias>
+        <alias>TLV70231_SOT23-5</alias>
+        <alias>TLV70233_SOT23-5</alias>
+        <alias>TLV70235_SOT23-5</alias>
+        <alias>TLV70237_SOT23-5</alias>
+        <alias>TLV70245_SOT23-5</alias>
+        <alias>TLV71209_SOT23-5</alias>
+        <alias>TLV71210_SOT23-5</alias>
+        <alias>TLV71211_SOT23-5</alias>
+        <alias>TLV71310PDBV</alias>
+        <alias>TLV71311PDBV</alias>
+        <alias>TLV71312PDBV</alias>
+        <alias>TLV71315PDBV</alias>
+        <alias>TLV71318PDBV</alias>
+        <alias>TLV713185PDBV</alias>
+        <alias>TLV71325PDBV</alias>
+        <alias>TLV71328PDBV</alias>
+        <alias>TLV713285PDBV</alias>
+        <alias>TLV71330PDBV</alias>
+        <alias>TLV71333PDBV</alias>
+        <alias>TLV75509PDBV</alias>
+        <alias>TLV75510PDBV</alias>
+        <alias>TLV75512PDBV</alias>
+        <alias>TLV75515PDBV</alias>
+        <alias>TLV75518PDBV</alias>
+        <alias>TLV75519PDBV</alias>
+        <alias>TLV75525PDBV</alias>
+        <alias>TLV75528PDBV</alias>
+        <alias>TLV75529PDBV</alias>
+        <alias>TLV75530PDBV</alias>
+        <alias>TLV75533PDBV</alias>
+        <alias>TLV75709PDBV</alias>
+        <alias>TLV75710PDBV</alias>
+        <alias>TLV75712PDBV</alias>
+        <alias>TLV75715PDBV</alias>
+        <alias>TLV75718PDBV</alias>
+        <alias>TLV75719PDBV</alias>
+        <alias>TLV75725PDBV</alias>
+        <alias>TLV75728PDBV</alias>
+        <alias>TLV75729PDBV</alias>
+        <alias>TLV75730PDBV</alias>
+        <alias>TLV75733PDBV</alias>
+        <alias>TLV702475_SOT23-5</alias>
+      </aliases>
+      <description>200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv700.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70012_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x02">
+      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="240x240_SPI-Display">
+      <uri>C:/Users/ccadic/CloudStation/iwatch/iwatch/240x240_SPI-Display.lib</uri>
+    </library>
+    <library logical="ComputeModule3Board-cache">
+      <uri>C:/Users/ccadic/CloudStation/Raspberry-Pi-Compute-Module-3-KiCad-Board-master/ComputeModule3Board-cache.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP32S3WROOM1N8R8">
+      <uri>C:\Users\ccadic\CloudStation\esp32solarminer\esp32solarminer/ESP32S3WROOM1N8R8.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C115" pin="2"/>
+      <node ref="U107" pin="2"/>
+      <node ref="U116" pin="41_2"/>
+      <node ref="U116" pin="41_9"/>
+      <node ref="U116" pin="41_8"/>
+      <node ref="U116" pin="41_7"/>
+      <node ref="U116" pin="41_6"/>
+      <node ref="U116" pin="41_5"/>
+      <node ref="U116" pin="41_4"/>
+      <node ref="U116" pin="41_3"/>
+      <node ref="U116" pin="41_1"/>
+      <node ref="U112" pin="41_5"/>
+      <node ref="U112" pin="41_4"/>
+      <node ref="U112" pin="41_3"/>
+      <node ref="U112" pin="41_2"/>
+      <node ref="U112" pin="41_1"/>
+      <node ref="U112" pin="40"/>
+      <node ref="SW118" pin="1"/>
+      <node ref="U112" pin="1"/>
+      <node ref="U104" pin="2"/>
+      <node ref="U116" pin="40"/>
+      <node ref="C109" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="R117" pin="2"/>
+      <node ref="C136" pin="1"/>
+      <node ref="C131" pin="1"/>
+      <node ref="C140" pin="2"/>
+      <node ref="SW121" pin="1"/>
+      <node ref="U116" pin="1"/>
+      <node ref="C127" pin="2"/>
+      <node ref="R110" pin="2"/>
+      <node ref="SW113" pin="1"/>
+      <node ref="U112" pin="41_6"/>
+      <node ref="C118" pin="2"/>
+      <node ref="C122" pin="1"/>
+      <node ref="C116" pin="1"/>
+      <node ref="C125" pin="2"/>
+      <node ref="SW115" pin="1"/>
+      <node ref="C121" pin="2"/>
+      <node ref="C120" pin="1"/>
+      <node ref="C129" pin="2"/>
+      <node ref="C139" pin="2"/>
+      <node ref="C138" pin="2"/>
+      <node ref="J101" pin="2"/>
+      <node ref="U115" pin="6"/>
+      <node ref="U109" pin="2"/>
+      <node ref="C124" pin="1"/>
+      <node ref="C130" pin="2"/>
+      <node ref="C144" pin="2"/>
+      <node ref="U115" pin="5"/>
+      <node ref="U115" pin="2"/>
+      <node ref="U115" pin="12"/>
+      <node ref="U115" pin="1"/>
+      <node ref="R112" pin="2"/>
+      <node ref="U106" pin="41_3"/>
+      <node ref="R106" pin="2"/>
+      <node ref="U106" pin="41_4"/>
+      <node ref="U106" pin="41_9"/>
+      <node ref="U106" pin="41_8"/>
+      <node ref="U106" pin="41_7"/>
+      <node ref="U106" pin="41_6"/>
+      <node ref="U106" pin="41_5"/>
+      <node ref="C114" pin="2"/>
+      <node ref="U106" pin="41_2"/>
+      <node ref="U106" pin="41_1"/>
+      <node ref="U106" pin="40"/>
+      <node ref="U106" pin="1"/>
+      <node ref="C154" pin="2"/>
+      <node ref="U112" pin="41_9"/>
+      <node ref="U112" pin="41_8"/>
+      <node ref="U112" pin="41_7"/>
+      <node ref="C135" pin="2"/>
+      <node ref="SW104" pin="1"/>
+      <node ref="C104" pin="2"/>
+      <node ref="SW109" pin="1"/>
+      <node ref="SW106" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C147" pin="2"/>
+      <node ref="R123" pin="2"/>
+      <node ref="SW131" pin="1"/>
+      <node ref="SW133" pin="1"/>
+      <node ref="U111" pin="41_1"/>
+      <node ref="U111" pin="41_5"/>
+      <node ref="U111" pin="41_9"/>
+      <node ref="U111" pin="41_8"/>
+      <node ref="U111" pin="41_7"/>
+      <node ref="U111" pin="41_6"/>
+      <node ref="U111" pin="41_4"/>
+      <node ref="U111" pin="41_3"/>
+      <node ref="U111" pin="41_2"/>
+      <node ref="U111" pin="40"/>
+      <node ref="U111" pin="1"/>
+      <node ref="C113" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="U118" pin="2"/>
+      <node ref="C151" pin="2"/>
+      <node ref="C153" pin="2"/>
+      <node ref="U101" pin="1"/>
+      <node ref="C149" pin="1"/>
+      <node ref="C145" pin="1"/>
+      <node ref="U120" pin="41_4"/>
+      <node ref="C142" pin="2"/>
+      <node ref="U113" pin="2"/>
+      <node ref="U120" pin="41_9"/>
+      <node ref="U120" pin="41_8"/>
+      <node ref="U120" pin="41_7"/>
+      <node ref="U120" pin="41_6"/>
+      <node ref="U120" pin="41_5"/>
+      <node ref="U103" pin="2"/>
+      <node ref="U120" pin="41_3"/>
+      <node ref="U120" pin="41_2"/>
+      <node ref="U120" pin="41_1"/>
+      <node ref="U120" pin="40"/>
+      <node ref="U120" pin="1"/>
+      <node ref="R125" pin="1"/>
+      <node ref="R126" pin="1"/>
+      <node ref="U101" pin="41_7"/>
+      <node ref="U101" pin="41_6"/>
+      <node ref="U101" pin="41_5"/>
+      <node ref="U101" pin="41_4"/>
+      <node ref="U101" pin="41_3"/>
+      <node ref="U101" pin="41_2"/>
+      <node ref="U101" pin="41_1"/>
+      <node ref="U101" pin="40"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U110" pin="41_9"/>
+      <node ref="U110" pin="41_8"/>
+      <node ref="U110" pin="41_7"/>
+      <node ref="U101" pin="41_8"/>
+      <node ref="SW116" pin="1"/>
+      <node ref="U110" pin="41_6"/>
+      <node ref="U102" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C133" pin="2"/>
+      <node ref="SW123" pin="1"/>
+      <node ref="R104" pin="2"/>
+      <node ref="SW105" pin="1"/>
+      <node ref="C110" pin="2"/>
+      <node ref="SW107" pin="1"/>
+      <node ref="U101" pin="41_9"/>
+      <node ref="U105" pin="41_1"/>
+      <node ref="U105" pin="41_9"/>
+      <node ref="U105" pin="41_8"/>
+      <node ref="U105" pin="41_7"/>
+      <node ref="U105" pin="41_6"/>
+      <node ref="U105" pin="41_5"/>
+      <node ref="U105" pin="41_4"/>
+      <node ref="U105" pin="41_3"/>
+      <node ref="U105" pin="41_2"/>
+      <node ref="U105" pin="40"/>
+      <node ref="U105" pin="1"/>
+      <node ref="J102" pin="S1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="U110" pin="41_5"/>
+      <node ref="U110" pin="41_4"/>
+      <node ref="U110" pin="41_3"/>
+      <node ref="U110" pin="41_2"/>
+      <node ref="U110" pin="41_1"/>
+      <node ref="U110" pin="40"/>
+      <node ref="U110" pin="1"/>
+      <node ref="U121" pin="41_8"/>
+      <node ref="C112" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="SW108" pin="1"/>
+      <node ref="J102" pin="A12"/>
+      <node ref="J102" pin="B12"/>
+      <node ref="J102" pin="B1"/>
+      <node ref="J102" pin="A1"/>
+      <node ref="SW122" pin="1"/>
+      <node ref="C150" pin="1"/>
+      <node ref="C146" pin="1"/>
+      <node ref="R118" pin="2"/>
+      <node ref="C152" pin="2"/>
+      <node ref="C132" pin="1"/>
+      <node ref="C141" pin="2"/>
+      <node ref="C128" pin="2"/>
+      <node ref="C137" pin="1"/>
+      <node ref="U117" pin="1"/>
+      <node ref="U117" pin="40"/>
+      <node ref="U119" pin="2"/>
+      <node ref="U114" pin="2"/>
+      <node ref="C134" pin="2"/>
+      <node ref="R111" pin="2"/>
+      <node ref="U108" pin="2"/>
+      <node ref="C119" pin="2"/>
+      <node ref="SW114" pin="1"/>
+      <node ref="C123" pin="1"/>
+      <node ref="C117" pin="1"/>
+      <node ref="SW134" pin="1"/>
+      <node ref="C148" pin="2"/>
+      <node ref="R124" pin="2"/>
+      <node ref="SW132" pin="1"/>
+      <node ref="C126" pin="2"/>
+      <node ref="SW124" pin="1"/>
+      <node ref="SW117" pin="1"/>
+      <node ref="U117" pin="41_1"/>
+      <node ref="U121" pin="41_9"/>
+      <node ref="C143" pin="2"/>
+      <node ref="U117" pin="41_8"/>
+      <node ref="U121" pin="41_7"/>
+      <node ref="U121" pin="41_6"/>
+      <node ref="U117" pin="41_7"/>
+      <node ref="U117" pin="41_2"/>
+      <node ref="U117" pin="41_9"/>
+      <node ref="U117" pin="41_3"/>
+      <node ref="U121" pin="41_5"/>
+      <node ref="U121" pin="1"/>
+      <node ref="U121" pin="41_3"/>
+      <node ref="U117" pin="41_4"/>
+      <node ref="U117" pin="41_5"/>
+      <node ref="U121" pin="41_2"/>
+      <node ref="U121" pin="41_1"/>
+      <node ref="U121" pin="41_4"/>
+      <node ref="U117" pin="41_6"/>
+      <node ref="U121" pin="40"/>
+    </net>
+    <net code="2" name="/+3.3_7">
+      <node ref="U114" pin="5"/>
+      <node ref="R114" pin="1"/>
+      <node ref="C143" pin="1"/>
+      <node ref="U117" pin="2"/>
+      <node ref="C141" pin="1"/>
+      <node ref="C137" pin="2"/>
+    </net>
+    <net code="3" name="Net-(SW134-Pad2)">
+      <node ref="SW134" pin="2"/>
+      <node ref="U121" pin="27"/>
+    </net>
+    <net code="4" name="Net-(U121-Pad6)">
+      <node ref="U121" pin="6"/>
+    </net>
+    <net code="5" name="Net-(U121-Pad15)">
+      <node ref="U121" pin="15"/>
+    </net>
+    <net code="6" name="Net-(U121-Pad39)">
+      <node ref="U121" pin="39"/>
+    </net>
+    <net code="7" name="Net-(U121-Pad31)">
+      <node ref="U121" pin="31"/>
+    </net>
+    <net code="8" name="Net-(U121-Pad30)">
+      <node ref="U121" pin="30"/>
+    </net>
+    <net code="9" name="Net-(U121-Pad23)">
+      <node ref="U121" pin="23"/>
+    </net>
+    <net code="10" name="Net-(U121-Pad11)">
+      <node ref="U121" pin="11"/>
+    </net>
+    <net code="11" name="Net-(U121-Pad5)">
+      <node ref="U121" pin="5"/>
+    </net>
+    <net code="12" name="Net-(U121-Pad10)">
+      <node ref="U121" pin="10"/>
+    </net>
+    <net code="13" name="Net-(U121-Pad9)">
+      <node ref="U121" pin="9"/>
+    </net>
+    <net code="14" name="Net-(U121-Pad38)">
+      <node ref="U121" pin="38"/>
+    </net>
+    <net code="15" name="Net-(U121-Pad8)">
+      <node ref="U121" pin="8"/>
+    </net>
+    <net code="16" name="Net-(U121-Pad21)">
+      <node ref="U121" pin="21"/>
+    </net>
+    <net code="17" name="Net-(U121-Pad20)">
+      <node ref="U121" pin="20"/>
+    </net>
+    <net code="18" name="Net-(U121-Pad22)">
+      <node ref="U121" pin="22"/>
+    </net>
+    <net code="19" name="Net-(U121-Pad33)">
+      <node ref="U121" pin="33"/>
+    </net>
+    <net code="20" name="Net-(U121-Pad32)">
+      <node ref="U121" pin="32"/>
+    </net>
+    <net code="21" name="Net-(U121-Pad34)">
+      <node ref="U121" pin="34"/>
+    </net>
+    <net code="22" name="Net-(U121-Pad28)">
+      <node ref="U121" pin="28"/>
+    </net>
+    <net code="23" name="/VUSB">
+      <node ref="U119" pin="1"/>
+      <node ref="U119" pin="3"/>
+      <node ref="U113" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="U102" pin="1"/>
+      <node ref="U118" pin="1"/>
+      <node ref="U102" pin="3"/>
+      <node ref="U118" pin="3"/>
+      <node ref="C120" pin="2"/>
+      <node ref="U107" pin="1"/>
+      <node ref="U109" pin="1"/>
+      <node ref="U109" pin="3"/>
+      <node ref="C117" pin="2"/>
+      <node ref="C145" pin="2"/>
+      <node ref="U107" pin="3"/>
+      <node ref="C116" pin="2"/>
+      <node ref="C131" pin="2"/>
+      <node ref="U108" pin="3"/>
+      <node ref="U108" pin="1"/>
+      <node ref="U104" pin="1"/>
+      <node ref="U104" pin="3"/>
+      <node ref="C103" pin="2"/>
+      <node ref="U103" pin="1"/>
+      <node ref="U103" pin="3"/>
+      <node ref="J102" pin="B4"/>
+      <node ref="J102" pin="B9"/>
+      <node ref="C146" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C132" pin="2"/>
+      <node ref="U113" pin="3"/>
+      <node ref="J101" pin="1"/>
+      <node ref="U114" pin="3"/>
+      <node ref="U114" pin="1"/>
+      <node ref="J102" pin="A9"/>
+      <node ref="J102" pin="A4"/>
+    </net>
+    <net code="24" name="/D7-">
+      <node ref="U117" pin="13"/>
+      <node ref="SW120" pin="4"/>
+    </net>
+    <net code="25" name="/D7+">
+      <node ref="U117" pin="14"/>
+      <node ref="SW120" pin="3"/>
+    </net>
+    <net code="26" name="/D+">
+      <node ref="SW102" pin="2"/>
+      <node ref="SW110" pin="2"/>
+      <node ref="SW112" pin="2"/>
+      <node ref="SW119" pin="2"/>
+      <node ref="SW130" pin="2"/>
+      <node ref="SW103" pin="2"/>
+      <node ref="SW120" pin="2"/>
+      <node ref="SW129" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="SW111" pin="2"/>
+      <node ref="R128" pin="1"/>
+    </net>
+    <net code="27" name="/D-">
+      <node ref="SW102" pin="1"/>
+      <node ref="SW112" pin="1"/>
+      <node ref="SW130" pin="1"/>
+      <node ref="SW120" pin="1"/>
+      <node ref="SW103" pin="1"/>
+      <node ref="SW129" pin="1"/>
+      <node ref="SW101" pin="1"/>
+      <node ref="SW110" pin="1"/>
+      <node ref="SW111" pin="1"/>
+      <node ref="R127" pin="1"/>
+      <node ref="SW119" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U114-Pad4)">
+      <node ref="U114" pin="4"/>
+    </net>
+    <net code="29" name="Net-(U121-Pad7)">
+      <node ref="U121" pin="7"/>
+    </net>
+    <net code="30" name="/D8-">
+      <node ref="SW130" pin="4"/>
+      <node ref="U121" pin="13"/>
+    </net>
+    <net code="31" name="/D8+">
+      <node ref="U121" pin="14"/>
+      <node ref="SW130" pin="3"/>
+    </net>
+    <net code="32" name="/+3.3_8">
+      <node ref="C150" pin="2"/>
+      <node ref="R122" pin="1"/>
+      <node ref="U121" pin="2"/>
+      <node ref="C152" pin="1"/>
+      <node ref="C154" pin="1"/>
+      <node ref="U119" pin="5"/>
+    </net>
+    <net code="33" name="Net-(U119-Pad4)">
+      <node ref="U119" pin="4"/>
+    </net>
+    <net code="34" name="Net-(U121-Pad24)">
+      <node ref="U121" pin="24"/>
+    </net>
+    <net code="35" name="/RST8">
+      <node ref="SW132" pin="2"/>
+      <node ref="C148" pin="1"/>
+      <node ref="R122" pin="2"/>
+      <node ref="U121" pin="3"/>
+    </net>
+    <net code="36" name="Net-(U121-Pad25)">
+      <node ref="U121" pin="25"/>
+    </net>
+    <net code="37" name="Net-(U121-Pad16)">
+      <node ref="U121" pin="16"/>
+    </net>
+    <net code="38" name="Net-(U121-Pad26)">
+      <node ref="U121" pin="26"/>
+    </net>
+    <net code="39" name="Net-(U121-Pad36)">
+      <node ref="U121" pin="36"/>
+    </net>
+    <net code="40" name="Net-(U121-Pad37)">
+      <node ref="U121" pin="37"/>
+    </net>
+    <net code="41" name="Net-(U121-Pad35)">
+      <node ref="U121" pin="35"/>
+    </net>
+    <net code="42" name="Net-(U121-Pad29)">
+      <node ref="U121" pin="29"/>
+    </net>
+    <net code="43" name="Net-(U121-Pad19)">
+      <node ref="U121" pin="19"/>
+    </net>
+    <net code="44" name="Net-(U121-Pad18)">
+      <node ref="U121" pin="18"/>
+    </net>
+    <net code="45" name="Net-(U121-Pad17)">
+      <node ref="U121" pin="17"/>
+    </net>
+    <net code="46" name="Net-(U121-Pad12)">
+      <node ref="U121" pin="12"/>
+    </net>
+    <net code="47" name="/ACTIONLLED8">
+      <node ref="D110" pin="2"/>
+      <node ref="U121" pin="4"/>
+    </net>
+    <net code="48" name="Net-(D110-Pad1)">
+      <node ref="D110" pin="1"/>
+      <node ref="R124" pin="1"/>
+    </net>
+    <net code="49" name="/D6+">
+      <node ref="U111" pin="14"/>
+      <node ref="SW111" pin="3"/>
+    </net>
+    <net code="50" name="/ACTIONLLED6">
+      <node ref="U111" pin="4"/>
+      <node ref="D105" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D105-Pad1)">
+      <node ref="D105" pin="1"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U111-Pad31)">
+      <node ref="U111" pin="31"/>
+    </net>
+    <net code="53" name="Net-(U111-Pad37)">
+      <node ref="U111" pin="37"/>
+    </net>
+    <net code="54" name="Net-(U111-Pad35)">
+      <node ref="U111" pin="35"/>
+    </net>
+    <net code="55" name="Net-(U111-Pad29)">
+      <node ref="U111" pin="29"/>
+    </net>
+    <net code="56" name="Net-(U111-Pad19)">
+      <node ref="U111" pin="19"/>
+    </net>
+    <net code="57" name="Net-(U111-Pad18)">
+      <node ref="U111" pin="18"/>
+    </net>
+    <net code="58" name="Net-(U111-Pad17)">
+      <node ref="U111" pin="17"/>
+    </net>
+    <net code="59" name="Net-(U111-Pad12)">
+      <node ref="U111" pin="12"/>
+    </net>
+    <net code="60" name="Net-(U111-Pad7)">
+      <node ref="U111" pin="7"/>
+    </net>
+    <net code="61" name="Net-(U111-Pad6)">
+      <node ref="U111" pin="6"/>
+    </net>
+    <net code="62" name="Net-(U111-Pad15)">
+      <node ref="U111" pin="15"/>
+    </net>
+    <net code="63" name="Net-(U111-Pad39)">
+      <node ref="U111" pin="39"/>
+    </net>
+    <net code="64" name="Net-(U111-Pad36)">
+      <node ref="U111" pin="36"/>
+    </net>
+    <net code="65" name="Net-(U111-Pad30)">
+      <node ref="U111" pin="30"/>
+    </net>
+    <net code="66" name="Net-(U111-Pad23)">
+      <node ref="U111" pin="23"/>
+    </net>
+    <net code="67" name="/D6-">
+      <node ref="SW111" pin="4"/>
+      <node ref="U111" pin="13"/>
+    </net>
+    <net code="68" name="Net-(U111-Pad11)">
+      <node ref="U111" pin="11"/>
+    </net>
+    <net code="69" name="Net-(U111-Pad5)">
+      <node ref="U111" pin="5"/>
+    </net>
+    <net code="70" name="Net-(U111-Pad10)">
+      <node ref="U111" pin="10"/>
+    </net>
+    <net code="71" name="Net-(U111-Pad9)">
+      <node ref="U111" pin="9"/>
+    </net>
+    <net code="72" name="Net-(SW117-Pad2)">
+      <node ref="SW117" pin="2"/>
+      <node ref="U111" pin="27"/>
+    </net>
+    <net code="73" name="Net-(U111-Pad38)">
+      <node ref="U111" pin="38"/>
+    </net>
+    <net code="74" name="Net-(U111-Pad8)">
+      <node ref="U111" pin="8"/>
+    </net>
+    <net code="75" name="/RST6">
+      <node ref="R108" pin="2"/>
+      <node ref="C119" pin="1"/>
+      <node ref="SW114" pin="2"/>
+      <node ref="U111" pin="3"/>
+    </net>
+    <net code="76" name="Net-(U108-Pad4)">
+      <node ref="U108" pin="4"/>
+    </net>
+    <net code="77" name="Net-(U111-Pad25)">
+      <node ref="U111" pin="25"/>
+    </net>
+    <net code="78" name="Net-(U111-Pad24)">
+      <node ref="U111" pin="24"/>
+    </net>
+    <net code="79" name="Net-(U111-Pad16)">
+      <node ref="U111" pin="16"/>
+    </net>
+    <net code="80" name="Net-(U111-Pad26)">
+      <node ref="U111" pin="26"/>
+    </net>
+    <net code="81" name="Net-(U117-Pad18)">
+      <node ref="U117" pin="18"/>
+    </net>
+    <net code="82" name="Net-(SW124-Pad2)">
+      <node ref="SW124" pin="2"/>
+      <node ref="U117" pin="27"/>
+    </net>
+    <net code="83" name="Net-(U117-Pad25)">
+      <node ref="U117" pin="25"/>
+    </net>
+    <net code="84" name="Net-(U117-Pad24)">
+      <node ref="U117" pin="24"/>
+    </net>
+    <net code="85" name="Net-(U117-Pad16)">
+      <node ref="U117" pin="16"/>
+    </net>
+    <net code="86" name="Net-(U117-Pad26)">
+      <node ref="U117" pin="26"/>
+    </net>
+    <net code="87" name="Net-(U117-Pad36)">
+      <node ref="U117" pin="36"/>
+    </net>
+    <net code="88" name="Net-(U117-Pad37)">
+      <node ref="U117" pin="37"/>
+    </net>
+    <net code="89" name="Net-(U117-Pad35)">
+      <node ref="U117" pin="35"/>
+    </net>
+    <net code="90" name="Net-(U117-Pad29)">
+      <node ref="U117" pin="29"/>
+    </net>
+    <net code="91" name="Net-(U117-Pad19)">
+      <node ref="U117" pin="19"/>
+    </net>
+    <net code="92" name="Net-(U117-Pad17)">
+      <node ref="U117" pin="17"/>
+    </net>
+    <net code="93" name="Net-(U117-Pad12)">
+      <node ref="U117" pin="12"/>
+    </net>
+    <net code="94" name="Net-(U117-Pad7)">
+      <node ref="U117" pin="7"/>
+    </net>
+    <net code="95" name="Net-(U117-Pad6)">
+      <node ref="U117" pin="6"/>
+    </net>
+    <net code="96" name="Net-(U117-Pad15)">
+      <node ref="U117" pin="15"/>
+    </net>
+    <net code="97" name="Net-(U117-Pad39)">
+      <node ref="U117" pin="39"/>
+    </net>
+    <net code="98" name="Net-(U117-Pad31)">
+      <node ref="U117" pin="31"/>
+    </net>
+    <net code="99" name="Net-(U117-Pad30)">
+      <node ref="U117" pin="30"/>
+    </net>
+    <net code="100" name="Net-(U117-Pad23)">
+      <node ref="U117" pin="23"/>
+    </net>
+    <net code="101" name="Net-(U117-Pad11)">
+      <node ref="U117" pin="11"/>
+    </net>
+    <net code="102" name="/ACTIONLLED7">
+      <node ref="U117" pin="4"/>
+      <node ref="D108" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D108-Pad1)">
+      <node ref="R118" pin="1"/>
+      <node ref="D108" pin="1"/>
+    </net>
+    <net code="104" name="Net-(U117-Pad5)">
+      <node ref="U117" pin="5"/>
+    </net>
+    <net code="105" name="/RST7">
+      <node ref="U117" pin="3"/>
+      <node ref="SW122" pin="2"/>
+      <node ref="C134" pin="1"/>
+      <node ref="R114" pin="2"/>
+    </net>
+    <net code="106" name="/+3.3_6">
+      <node ref="C126" pin="1"/>
+      <node ref="C128" pin="1"/>
+      <node ref="U108" pin="5"/>
+      <node ref="C123" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="U111" pin="2"/>
+    </net>
+    <net code="107" name="Net-(U117-Pad34)">
+      <node ref="U117" pin="34"/>
+    </net>
+    <net code="108" name="Net-(U117-Pad10)">
+      <node ref="U117" pin="10"/>
+    </net>
+    <net code="109" name="Net-(U117-Pad9)">
+      <node ref="U117" pin="9"/>
+    </net>
+    <net code="110" name="Net-(U117-Pad38)">
+      <node ref="U117" pin="38"/>
+    </net>
+    <net code="111" name="Net-(U117-Pad8)">
+      <node ref="U117" pin="8"/>
+    </net>
+    <net code="112" name="Net-(U117-Pad21)">
+      <node ref="U117" pin="21"/>
+    </net>
+    <net code="113" name="Net-(U117-Pad20)">
+      <node ref="U117" pin="20"/>
+    </net>
+    <net code="114" name="Net-(U117-Pad22)">
+      <node ref="U117" pin="22"/>
+    </net>
+    <net code="115" name="Net-(U117-Pad33)">
+      <node ref="U117" pin="33"/>
+    </net>
+    <net code="116" name="Net-(U117-Pad32)">
+      <node ref="U117" pin="32"/>
+    </net>
+    <net code="117" name="Net-(U117-Pad28)">
+      <node ref="U117" pin="28"/>
+    </net>
+    <net code="118" name="Net-(U109-Pad4)">
+      <node ref="U109" pin="4"/>
+    </net>
+    <net code="119" name="/MOSI">
+      <node ref="U115" pin="10"/>
+      <node ref="U112" pin="28"/>
+    </net>
+    <net code="120" name="/+3.3_10">
+      <node ref="U112" pin="2"/>
+      <node ref="R120" pin="1"/>
+      <node ref="U109" pin="5"/>
+      <node ref="C124" pin="2"/>
+      <node ref="U115" pin="4"/>
+      <node ref="U115" pin="3"/>
+      <node ref="C130" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R115" pin="1"/>
+      <node ref="C129" pin="1"/>
+      <node ref="R119" pin="1"/>
+      <node ref="R116" pin="1"/>
+    </net>
+    <net code="121" name="/ACTIONLLED10">
+      <node ref="D106" pin="2"/>
+      <node ref="U112" pin="4"/>
+    </net>
+    <net code="122" name="Net-(D106-Pad1)">
+      <node ref="D106" pin="1"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="123" name="Net-(SW118-Pad2)">
+      <node ref="SW118" pin="2"/>
+      <node ref="U112" pin="27"/>
+    </net>
+    <net code="124" name="/D10-">
+      <node ref="U112" pin="13"/>
+      <node ref="SW112" pin="4"/>
+    </net>
+    <net code="125" name="/D10+">
+      <node ref="SW112" pin="3"/>
+      <node ref="U112" pin="14"/>
+    </net>
+    <net code="126" name="/BUT3">
+      <node ref="U112" pin="17"/>
+      <node ref="SW127" pin="1"/>
+    </net>
+    <net code="127" name="Net-(C139-Pad1)">
+      <node ref="C139" pin="1"/>
+      <node ref="R119" pin="2"/>
+      <node ref="SW127" pin="2"/>
+    </net>
+    <net code="128" name="/BUT2">
+      <node ref="U112" pin="12"/>
+      <node ref="SW126" pin="1"/>
+    </net>
+    <net code="129" name="Net-(C138-Pad1)">
+      <node ref="SW126" pin="2"/>
+      <node ref="C138" pin="1"/>
+      <node ref="R116" pin="2"/>
+    </net>
+    <net code="130" name="Net-(C144-Pad1)">
+      <node ref="R120" pin="2"/>
+      <node ref="C144" pin="1"/>
+      <node ref="SW128" pin="2"/>
+    </net>
+    <net code="131" name="Net-(C135-Pad1)">
+      <node ref="R115" pin="2"/>
+      <node ref="SW125" pin="2"/>
+      <node ref="C135" pin="1"/>
+    </net>
+    <net code="132" name="Net-(SW109-Pad2)">
+      <node ref="U106" pin="27"/>
+      <node ref="SW109" pin="2"/>
+    </net>
+    <net code="133" name="Net-(U106-Pad25)">
+      <node ref="U106" pin="25"/>
+    </net>
+    <net code="134" name="Net-(U106-Pad24)">
+      <node ref="U106" pin="24"/>
+    </net>
+    <net code="135" name="Net-(U106-Pad16)">
+      <node ref="U106" pin="16"/>
+    </net>
+    <net code="136" name="Net-(U106-Pad26)">
+      <node ref="U106" pin="26"/>
+    </net>
+    <net code="137" name="Net-(U106-Pad36)">
+      <node ref="U106" pin="36"/>
+    </net>
+    <net code="138" name="Net-(U106-Pad37)">
+      <node ref="U106" pin="37"/>
+    </net>
+    <net code="139" name="/D9-">
+      <node ref="U106" pin="13"/>
+      <node ref="SW103" pin="4"/>
+    </net>
+    <net code="140" name="/D9+">
+      <node ref="SW103" pin="3"/>
+      <node ref="U106" pin="14"/>
+    </net>
+    <net code="141" name="/ACTIONLLED9">
+      <node ref="D103" pin="2"/>
+      <node ref="U106" pin="4"/>
+    </net>
+    <net code="142" name="Net-(D103-Pad1)">
+      <node ref="R106" pin="1"/>
+      <node ref="D103" pin="1"/>
+    </net>
+    <net code="143" name="Net-(U106-Pad22)">
+      <node ref="U106" pin="22"/>
+    </net>
+    <net code="144" name="Net-(U106-Pad33)">
+      <node ref="U106" pin="33"/>
+    </net>
+    <net code="145" name="Net-(U106-Pad32)">
+      <node ref="U106" pin="32"/>
+    </net>
+    <net code="146" name="Net-(U106-Pad34)">
+      <node ref="U106" pin="34"/>
+    </net>
+    <net code="147" name="Net-(U106-Pad28)">
+      <node ref="U106" pin="28"/>
+    </net>
+    <net code="148" name="/RST9">
+      <node ref="U106" pin="3"/>
+      <node ref="SW104" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="149" name="Net-(U106-Pad20)">
+      <node ref="U106" pin="20"/>
+    </net>
+    <net code="150" name="Net-(U106-Pad30)">
+      <node ref="U106" pin="30"/>
+    </net>
+    <net code="151" name="Net-(U106-Pad35)">
+      <node ref="U106" pin="35"/>
+    </net>
+    <net code="152" name="Net-(U106-Pad29)">
+      <node ref="U106" pin="29"/>
+    </net>
+    <net code="153" name="Net-(U106-Pad19)">
+      <node ref="U106" pin="19"/>
+    </net>
+    <net code="154" name="Net-(U106-Pad18)">
+      <node ref="U106" pin="18"/>
+    </net>
+    <net code="155" name="Net-(U106-Pad17)">
+      <node ref="U106" pin="17"/>
+    </net>
+    <net code="156" name="Net-(U106-Pad12)">
+      <node ref="U106" pin="12"/>
+    </net>
+    <net code="157" name="Net-(U106-Pad7)">
+      <node ref="U106" pin="7"/>
+    </net>
+    <net code="158" name="Net-(U106-Pad6)">
+      <node ref="U106" pin="6"/>
+    </net>
+    <net code="159" name="Net-(U106-Pad15)">
+      <node ref="U106" pin="15"/>
+    </net>
+    <net code="160" name="Net-(U106-Pad39)">
+      <node ref="U106" pin="39"/>
+    </net>
+    <net code="161" name="Net-(U106-Pad31)">
+      <node ref="U106" pin="31"/>
+    </net>
+    <net code="162" name="Net-(U106-Pad23)">
+      <node ref="U106" pin="23"/>
+    </net>
+    <net code="163" name="Net-(U106-Pad11)">
+      <node ref="U106" pin="11"/>
+    </net>
+    <net code="164" name="Net-(U106-Pad5)">
+      <node ref="U106" pin="5"/>
+    </net>
+    <net code="165" name="Net-(U106-Pad10)">
+      <node ref="U106" pin="10"/>
+    </net>
+    <net code="166" name="Net-(U106-Pad9)">
+      <node ref="U106" pin="9"/>
+    </net>
+    <net code="167" name="Net-(U106-Pad38)">
+      <node ref="U106" pin="38"/>
+    </net>
+    <net code="168" name="Net-(U106-Pad8)">
+      <node ref="U106" pin="8"/>
+    </net>
+    <net code="169" name="Net-(U106-Pad21)">
+      <node ref="U106" pin="21"/>
+    </net>
+    <net code="170" name="/RST10">
+      <node ref="C121" pin="1"/>
+      <node ref="SW115" pin="2"/>
+      <node ref="R109" pin="2"/>
+      <node ref="U112" pin="3"/>
+    </net>
+    <net code="171" name="Net-(U112-Pad9)">
+      <node ref="U112" pin="9"/>
+    </net>
+    <net code="172" name="Net-(U112-Pad38)">
+      <node ref="U112" pin="38"/>
+    </net>
+    <net code="173" name="/BUT4">
+      <node ref="SW128" pin="1"/>
+      <node ref="U112" pin="8"/>
+    </net>
+    <net code="174" name="Net-(U112-Pad21)">
+      <node ref="U112" pin="21"/>
+    </net>
+    <net code="175" name="/DispDC">
+      <node ref="U115" pin="7"/>
+      <node ref="U112" pin="20"/>
+    </net>
+    <net code="176" name="Net-(U112-Pad22)">
+      <node ref="U112" pin="22"/>
+    </net>
+    <net code="177" name="Net-(U112-Pad33)">
+      <node ref="U112" pin="33"/>
+    </net>
+    <net code="178" name="Net-(U112-Pad32)">
+      <node ref="U112" pin="32"/>
+    </net>
+    <net code="179" name="Net-(U112-Pad34)">
+      <node ref="U112" pin="34"/>
+    </net>
+    <net code="180" name="Net-(U112-Pad10)">
+      <node ref="U112" pin="10"/>
+    </net>
+    <net code="181" name="Net-(U112-Pad25)">
+      <node ref="U112" pin="25"/>
+    </net>
+    <net code="182" name="Net-(U112-Pad24)">
+      <node ref="U112" pin="24"/>
+    </net>
+    <net code="183" name="Net-(U112-Pad16)">
+      <node ref="U112" pin="16"/>
+    </net>
+    <net code="184" name="Net-(U112-Pad26)">
+      <node ref="U112" pin="26"/>
+    </net>
+    <net code="185" name="Net-(U112-Pad36)">
+      <node ref="U112" pin="36"/>
+    </net>
+    <net code="186" name="Net-(U112-Pad37)">
+      <node ref="U112" pin="37"/>
+    </net>
+    <net code="187" name="Net-(U112-Pad35)">
+      <node ref="U112" pin="35"/>
+    </net>
+    <net code="188" name="/SCK">
+      <node ref="U112" pin="29"/>
+      <node ref="U115" pin="9"/>
+    </net>
+    <net code="189" name="Net-(U112-Pad19)">
+      <node ref="U112" pin="19"/>
+    </net>
+    <net code="190" name="Net-(U112-Pad18)">
+      <node ref="U112" pin="18"/>
+    </net>
+    <net code="191" name="/BUT1">
+      <node ref="U112" pin="7"/>
+      <node ref="SW125" pin="1"/>
+    </net>
+    <net code="192" name="/DispCS">
+      <node ref="U115" pin="8"/>
+      <node ref="U112" pin="6"/>
+    </net>
+    <net code="193" name="Net-(U112-Pad15)">
+      <node ref="U112" pin="15"/>
+    </net>
+    <net code="194" name="Net-(U112-Pad39)">
+      <node ref="U112" pin="39"/>
+    </net>
+    <net code="195" name="Net-(U112-Pad31)">
+      <node ref="U112" pin="31"/>
+    </net>
+    <net code="196" name="/MISO">
+      <node ref="U112" pin="30"/>
+    </net>
+    <net code="197" name="Net-(U112-Pad23)">
+      <node ref="U112" pin="23"/>
+    </net>
+    <net code="198" name="Net-(U112-Pad11)">
+      <node ref="U112" pin="11"/>
+    </net>
+    <net code="199" name="/RSTDISP">
+      <node ref="U112" pin="5"/>
+      <node ref="U115" pin="11"/>
+    </net>
+    <net code="200" name="/+3.3_9">
+      <node ref="C114" pin="1"/>
+      <node ref="C115" pin="1"/>
+      <node ref="U104" pin="5"/>
+      <node ref="R101" pin="1"/>
+      <node ref="U106" pin="2"/>
+      <node ref="C109" pin="2"/>
+    </net>
+    <net code="201" name="Net-(U111-Pad21)">
+      <node ref="U111" pin="21"/>
+    </net>
+    <net code="202" name="Net-(U104-Pad4)">
+      <node ref="U104" pin="4"/>
+    </net>
+    <net code="203" name="/+3.3_2">
+      <node ref="R107" pin="1"/>
+      <node ref="C127" pin="1"/>
+      <node ref="U110" pin="2"/>
+      <node ref="C125" pin="1"/>
+      <node ref="U107" pin="5"/>
+      <node ref="C122" pin="2"/>
+    </net>
+    <net code="204" name="Net-(U107-Pad4)">
+      <node ref="U107" pin="4"/>
+    </net>
+    <net code="205" name="Net-(U116-Pad32)">
+      <node ref="U116" pin="32"/>
+    </net>
+    <net code="206" name="Net-(U116-Pad34)">
+      <node ref="U116" pin="34"/>
+    </net>
+    <net code="207" name="Net-(U116-Pad28)">
+      <node ref="U116" pin="28"/>
+    </net>
+    <net code="208" name="Net-(D104-Pad1)">
+      <node ref="D104" pin="1"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="209" name="/ACTIONLLED2">
+      <node ref="D104" pin="2"/>
+      <node ref="U110" pin="4"/>
+    </net>
+    <net code="210" name="/RST2">
+      <node ref="SW113" pin="2"/>
+      <node ref="U110" pin="3"/>
+      <node ref="C118" pin="1"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="211" name="Net-(U116-Pad33)">
+      <node ref="U116" pin="33"/>
+    </net>
+    <net code="212" name="/D3-">
+      <node ref="U116" pin="13"/>
+      <node ref="SW119" pin="4"/>
+    </net>
+    <net code="213" name="/D3+">
+      <node ref="SW119" pin="3"/>
+      <node ref="U116" pin="14"/>
+    </net>
+    <net code="214" name="/+3.3_3">
+      <node ref="C136" pin="2"/>
+      <node ref="C140" pin="1"/>
+      <node ref="U116" pin="2"/>
+      <node ref="R113" pin="1"/>
+      <node ref="C142" pin="1"/>
+      <node ref="U113" pin="5"/>
+    </net>
+    <net code="215" name="Net-(D107-Pad1)">
+      <node ref="D107" pin="1"/>
+      <node ref="R117" pin="1"/>
+    </net>
+    <net code="216" name="Net-(U116-Pad29)">
+      <node ref="U116" pin="29"/>
+    </net>
+    <net code="217" name="Net-(U116-Pad19)">
+      <node ref="U116" pin="19"/>
+    </net>
+    <net code="218" name="Net-(U116-Pad18)">
+      <node ref="U116" pin="18"/>
+    </net>
+    <net code="219" name="Net-(U116-Pad17)">
+      <node ref="U116" pin="17"/>
+    </net>
+    <net code="220" name="Net-(U116-Pad12)">
+      <node ref="U116" pin="12"/>
+    </net>
+    <net code="221" name="Net-(U116-Pad7)">
+      <node ref="U116" pin="7"/>
+    </net>
+    <net code="222" name="Net-(U116-Pad6)">
+      <node ref="U116" pin="6"/>
+    </net>
+    <net code="223" name="Net-(U116-Pad15)">
+      <node ref="U116" pin="15"/>
+    </net>
+    <net code="224" name="Net-(U116-Pad39)">
+      <node ref="U116" pin="39"/>
+    </net>
+    <net code="225" name="Net-(U116-Pad31)">
+      <node ref="U116" pin="31"/>
+    </net>
+    <net code="226" name="Net-(U116-Pad30)">
+      <node ref="U116" pin="30"/>
+    </net>
+    <net code="227" name="Net-(U116-Pad23)">
+      <node ref="U116" pin="23"/>
+    </net>
+    <net code="228" name="Net-(U116-Pad35)">
+      <node ref="U116" pin="35"/>
+    </net>
+    <net code="229" name="Net-(U116-Pad11)">
+      <node ref="U116" pin="11"/>
+    </net>
+    <net code="230" name="Net-(U116-Pad5)">
+      <node ref="U116" pin="5"/>
+    </net>
+    <net code="231" name="Net-(U116-Pad10)">
+      <node ref="U116" pin="10"/>
+    </net>
+    <net code="232" name="Net-(U116-Pad9)">
+      <node ref="U116" pin="9"/>
+    </net>
+    <net code="233" name="/ACTIONLLED3">
+      <node ref="D107" pin="2"/>
+      <node ref="U116" pin="4"/>
+    </net>
+    <net code="234" name="Net-(SW123-Pad2)">
+      <node ref="U116" pin="27"/>
+      <node ref="SW123" pin="2"/>
+    </net>
+    <net code="235" name="Net-(U116-Pad38)">
+      <node ref="U116" pin="38"/>
+    </net>
+    <net code="236" name="Net-(U116-Pad8)">
+      <node ref="U116" pin="8"/>
+    </net>
+    <net code="237" name="Net-(U116-Pad21)">
+      <node ref="U116" pin="21"/>
+    </net>
+    <net code="238" name="Net-(U116-Pad20)">
+      <node ref="U116" pin="20"/>
+    </net>
+    <net code="239" name="Net-(U116-Pad22)">
+      <node ref="U116" pin="22"/>
+    </net>
+    <net code="240" name="/RST3">
+      <node ref="SW121" pin="2"/>
+      <node ref="U116" pin="3"/>
+      <node ref="R113" pin="2"/>
+      <node ref="C133" pin="1"/>
+    </net>
+    <net code="241" name="Net-(U116-Pad25)">
+      <node ref="U116" pin="25"/>
+    </net>
+    <net code="242" name="Net-(U116-Pad24)">
+      <node ref="U116" pin="24"/>
+    </net>
+    <net code="243" name="Net-(U116-Pad16)">
+      <node ref="U116" pin="16"/>
+    </net>
+    <net code="244" name="Net-(U116-Pad26)">
+      <node ref="U116" pin="26"/>
+    </net>
+    <net code="245" name="Net-(U116-Pad36)">
+      <node ref="U116" pin="36"/>
+    </net>
+    <net code="246" name="Net-(U116-Pad37)">
+      <node ref="U116" pin="37"/>
+    </net>
+    <net code="247" name="/ACTIONLLED1">
+      <node ref="U101" pin="4"/>
+      <node ref="D101" pin="2"/>
+    </net>
+    <net code="248" name="Net-(D101-Pad1)">
+      <node ref="R104" pin="1"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="249" name="Net-(SW107-Pad2)">
+      <node ref="U101" pin="27"/>
+      <node ref="SW107" pin="2"/>
+    </net>
+    <net code="250" name="/D1-">
+      <node ref="SW101" pin="4"/>
+      <node ref="U101" pin="13"/>
+    </net>
+    <net code="251" name="/D1+">
+      <node ref="SW101" pin="3"/>
+      <node ref="U101" pin="14"/>
+    </net>
+    <net code="252" name="/RST1">
+      <node ref="R102" pin="2"/>
+      <node ref="U101" pin="3"/>
+      <node ref="C105" pin="1"/>
+      <node ref="SW105" pin="2"/>
+    </net>
+    <net code="253" name="Net-(U101-Pad9)">
+      <node ref="U101" pin="9"/>
+    </net>
+    <net code="254" name="Net-(U101-Pad38)">
+      <node ref="U101" pin="38"/>
+    </net>
+    <net code="255" name="Net-(U101-Pad8)">
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="256" name="Net-(U101-Pad21)">
+      <node ref="U101" pin="21"/>
+    </net>
+    <net code="257" name="Net-(U101-Pad20)">
+      <node ref="U101" pin="20"/>
+    </net>
+    <net code="258" name="Net-(U101-Pad22)">
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="259" name="Net-(U101-Pad33)">
+      <node ref="U101" pin="33"/>
+    </net>
+    <net code="260" name="Net-(U101-Pad32)">
+      <node ref="U101" pin="32"/>
+    </net>
+    <net code="261" name="Net-(U101-Pad34)">
+      <node ref="U101" pin="34"/>
+    </net>
+    <net code="262" name="Net-(U101-Pad28)">
+      <node ref="U101" pin="28"/>
+    </net>
+    <net code="263" name="Net-(U101-Pad10)">
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="264" name="Net-(U101-Pad17)">
+      <node ref="U101" pin="17"/>
+    </net>
+    <net code="265" name="Net-(U101-Pad25)">
+      <node ref="U101" pin="25"/>
+    </net>
+    <net code="266" name="Net-(U101-Pad24)">
+      <node ref="U101" pin="24"/>
+    </net>
+    <net code="267" name="Net-(U101-Pad16)">
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="268" name="Net-(U101-Pad26)">
+      <node ref="U101" pin="26"/>
+    </net>
+    <net code="269" name="Net-(U101-Pad36)">
+      <node ref="U101" pin="36"/>
+    </net>
+    <net code="270" name="Net-(U101-Pad37)">
+      <node ref="U101" pin="37"/>
+    </net>
+    <net code="271" name="Net-(U101-Pad35)">
+      <node ref="U101" pin="35"/>
+    </net>
+    <net code="272" name="Net-(U101-Pad29)">
+      <node ref="U101" pin="29"/>
+    </net>
+    <net code="273" name="Net-(U101-Pad19)">
+      <node ref="U101" pin="19"/>
+    </net>
+    <net code="274" name="Net-(U101-Pad18)">
+      <node ref="U101" pin="18"/>
+    </net>
+    <net code="275" name="Net-(U101-Pad12)">
+      <node ref="U101" pin="12"/>
+    </net>
+    <net code="276" name="Net-(U101-Pad7)">
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="277" name="Net-(U101-Pad6)">
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="278" name="Net-(U101-Pad15)">
+      <node ref="U101" pin="15"/>
+    </net>
+    <net code="279" name="Net-(U101-Pad39)">
+      <node ref="U101" pin="39"/>
+    </net>
+    <net code="280" name="Net-(U101-Pad31)">
+      <node ref="U101" pin="31"/>
+    </net>
+    <net code="281" name="Net-(U101-Pad30)">
+      <node ref="U101" pin="30"/>
+    </net>
+    <net code="282" name="Net-(U101-Pad23)">
+      <node ref="U101" pin="23"/>
+    </net>
+    <net code="283" name="Net-(U101-Pad11)">
+      <node ref="U101" pin="11"/>
+    </net>
+    <net code="284" name="Net-(U101-Pad5)">
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="285" name="Net-(U110-Pad21)">
+      <node ref="U110" pin="21"/>
+    </net>
+    <net code="286" name="Net-(U110-Pad31)">
+      <node ref="U110" pin="31"/>
+    </net>
+    <net code="287" name="Net-(U110-Pad30)">
+      <node ref="U110" pin="30"/>
+    </net>
+    <net code="288" name="Net-(U110-Pad23)">
+      <node ref="U110" pin="23"/>
+    </net>
+    <net code="289" name="/D2-">
+      <node ref="SW110" pin="4"/>
+      <node ref="U110" pin="13"/>
+    </net>
+    <net code="290" name="Net-(U110-Pad11)">
+      <node ref="U110" pin="11"/>
+    </net>
+    <net code="291" name="Net-(U110-Pad5)">
+      <node ref="U110" pin="5"/>
+    </net>
+    <net code="292" name="Net-(U110-Pad10)">
+      <node ref="U110" pin="10"/>
+    </net>
+    <net code="293" name="Net-(U110-Pad9)">
+      <node ref="U110" pin="9"/>
+    </net>
+    <net code="294" name="Net-(SW116-Pad2)">
+      <node ref="SW116" pin="2"/>
+      <node ref="U110" pin="27"/>
+    </net>
+    <net code="295" name="Net-(U110-Pad38)">
+      <node ref="U110" pin="38"/>
+    </net>
+    <net code="296" name="Net-(U110-Pad8)">
+      <node ref="U110" pin="8"/>
+    </net>
+    <net code="297" name="Net-(U110-Pad39)">
+      <node ref="U110" pin="39"/>
+    </net>
+    <net code="298" name="Net-(U110-Pad20)">
+      <node ref="U110" pin="20"/>
+    </net>
+    <net code="299" name="Net-(U110-Pad22)">
+      <node ref="U110" pin="22"/>
+    </net>
+    <net code="300" name="Net-(U110-Pad33)">
+      <node ref="U110" pin="33"/>
+    </net>
+    <net code="301" name="Net-(U110-Pad32)">
+      <node ref="U110" pin="32"/>
+    </net>
+    <net code="302" name="Net-(U110-Pad34)">
+      <node ref="U110" pin="34"/>
+    </net>
+    <net code="303" name="Net-(U110-Pad28)">
+      <node ref="U110" pin="28"/>
+    </net>
+    <net code="304" name="Net-(U110-Pad36)">
+      <node ref="U110" pin="36"/>
+    </net>
+    <net code="305" name="Net-(U110-Pad25)">
+      <node ref="U110" pin="25"/>
+    </net>
+    <net code="306" name="Net-(U110-Pad24)">
+      <node ref="U110" pin="24"/>
+    </net>
+    <net code="307" name="Net-(U110-Pad16)">
+      <node ref="U110" pin="16"/>
+    </net>
+    <net code="308" name="Net-(U110-Pad26)">
+      <node ref="U110" pin="26"/>
+    </net>
+    <net code="309" name="Net-(U110-Pad37)">
+      <node ref="U110" pin="37"/>
+    </net>
+    <net code="310" name="/D2+">
+      <node ref="U110" pin="14"/>
+      <node ref="SW110" pin="3"/>
+    </net>
+    <net code="311" name="Net-(U110-Pad35)">
+      <node ref="U110" pin="35"/>
+    </net>
+    <net code="312" name="Net-(U110-Pad29)">
+      <node ref="U110" pin="29"/>
+    </net>
+    <net code="313" name="Net-(U110-Pad19)">
+      <node ref="U110" pin="19"/>
+    </net>
+    <net code="314" name="Net-(U110-Pad18)">
+      <node ref="U110" pin="18"/>
+    </net>
+    <net code="315" name="Net-(U110-Pad17)">
+      <node ref="U110" pin="17"/>
+    </net>
+    <net code="316" name="Net-(U110-Pad12)">
+      <node ref="U110" pin="12"/>
+    </net>
+    <net code="317" name="Net-(U110-Pad7)">
+      <node ref="U110" pin="7"/>
+    </net>
+    <net code="318" name="Net-(U110-Pad6)">
+      <node ref="U110" pin="6"/>
+    </net>
+    <net code="319" name="Net-(U110-Pad15)">
+      <node ref="U110" pin="15"/>
+    </net>
+    <net code="320" name="Net-(U102-Pad4)">
+      <node ref="U102" pin="4"/>
+    </net>
+    <net code="321" name="/+3.3_1">
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="C112" pin="1"/>
+      <node ref="U102" pin="5"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C110" pin="1"/>
+    </net>
+    <net code="322" name="Net-(U105-Pad7)">
+      <node ref="U105" pin="7"/>
+    </net>
+    <net code="323" name="Net-(U105-Pad6)">
+      <node ref="U105" pin="6"/>
+    </net>
+    <net code="324" name="Net-(U105-Pad15)">
+      <node ref="U105" pin="15"/>
+    </net>
+    <net code="325" name="Net-(U105-Pad39)">
+      <node ref="U105" pin="39"/>
+    </net>
+    <net code="326" name="Net-(U105-Pad31)">
+      <node ref="U105" pin="31"/>
+    </net>
+    <net code="327" name="Net-(U105-Pad30)">
+      <node ref="U105" pin="30"/>
+    </net>
+    <net code="328" name="Net-(U105-Pad23)">
+      <node ref="U105" pin="23"/>
+    </net>
+    <net code="329" name="/D5-">
+      <node ref="SW102" pin="4"/>
+      <node ref="U105" pin="13"/>
+    </net>
+    <net code="330" name="Net-(U105-Pad11)">
+      <node ref="U105" pin="11"/>
+    </net>
+    <net code="331" name="Net-(U105-Pad5)">
+      <node ref="U105" pin="5"/>
+    </net>
+    <net code="332" name="Net-(U105-Pad10)">
+      <node ref="U105" pin="10"/>
+    </net>
+    <net code="333" name="Net-(U105-Pad9)">
+      <node ref="U105" pin="9"/>
+    </net>
+    <net code="334" name="Net-(U105-Pad12)">
+      <node ref="U105" pin="12"/>
+    </net>
+    <net code="335" name="Net-(SW108-Pad2)">
+      <node ref="U105" pin="27"/>
+      <node ref="SW108" pin="2"/>
+    </net>
+    <net code="336" name="Net-(U105-Pad38)">
+      <node ref="U105" pin="38"/>
+    </net>
+    <net code="337" name="Net-(U105-Pad8)">
+      <node ref="U105" pin="8"/>
+    </net>
+    <net code="338" name="Net-(U105-Pad21)">
+      <node ref="U105" pin="21"/>
+    </net>
+    <net code="339" name="Net-(U105-Pad20)">
+      <node ref="U105" pin="20"/>
+    </net>
+    <net code="340" name="Net-(U105-Pad22)">
+      <node ref="U105" pin="22"/>
+    </net>
+    <net code="341" name="Net-(U105-Pad33)">
+      <node ref="U105" pin="33"/>
+    </net>
+    <net code="342" name="Net-(U105-Pad32)">
+      <node ref="U105" pin="32"/>
+    </net>
+    <net code="343" name="Net-(U105-Pad34)">
+      <node ref="U105" pin="34"/>
+    </net>
+    <net code="344" name="Net-(U105-Pad28)">
+      <node ref="U105" pin="28"/>
+    </net>
+    <net code="345" name="Net-(U105-Pad25)">
+      <node ref="U105" pin="25"/>
+    </net>
+    <net code="346" name="/RST5">
+      <node ref="R103" pin="2"/>
+      <node ref="SW106" pin="2"/>
+      <node ref="C106" pin="1"/>
+      <node ref="U105" pin="3"/>
+    </net>
+    <net code="347" name="Net-(U105-Pad24)">
+      <node ref="U105" pin="24"/>
+    </net>
+    <net code="348" name="Net-(U105-Pad16)">
+      <node ref="U105" pin="16"/>
+    </net>
+    <net code="349" name="Net-(U105-Pad26)">
+      <node ref="U105" pin="26"/>
+    </net>
+    <net code="350" name="Net-(U105-Pad36)">
+      <node ref="U105" pin="36"/>
+    </net>
+    <net code="351" name="Net-(U105-Pad37)">
+      <node ref="U105" pin="37"/>
+    </net>
+    <net code="352" name="/D5+">
+      <node ref="U105" pin="14"/>
+      <node ref="SW102" pin="3"/>
+    </net>
+    <net code="353" name="Net-(U105-Pad35)">
+      <node ref="U105" pin="35"/>
+    </net>
+    <net code="354" name="Net-(U105-Pad29)">
+      <node ref="U105" pin="29"/>
+    </net>
+    <net code="355" name="Net-(U105-Pad19)">
+      <node ref="U105" pin="19"/>
+    </net>
+    <net code="356" name="Net-(U105-Pad18)">
+      <node ref="U105" pin="18"/>
+    </net>
+    <net code="357" name="Net-(U105-Pad17)">
+      <node ref="U105" pin="17"/>
+    </net>
+    <net code="358" name="Net-(J102-PadB11)">
+      <node ref="J102" pin="B11"/>
+    </net>
+    <net code="359" name="Net-(J102-PadB10)">
+      <node ref="J102" pin="B10"/>
+    </net>
+    <net code="360" name="Net-(J102-PadA8)">
+      <node ref="J102" pin="A8"/>
+    </net>
+    <net code="361" name="Net-(J102-PadA5)">
+      <node ref="J102" pin="A5"/>
+      <node ref="R125" pin="2"/>
+    </net>
+    <net code="362" name="Net-(J102-PadA3)">
+      <node ref="J102" pin="A3"/>
+    </net>
+    <net code="363" name="Net-(J102-PadA2)">
+      <node ref="J102" pin="A2"/>
+    </net>
+    <net code="364" name="Net-(J102-PadB2)">
+      <node ref="J102" pin="B2"/>
+    </net>
+    <net code="365" name="Net-(J102-PadA11)">
+      <node ref="J102" pin="A11"/>
+    </net>
+    <net code="366" name="Net-(J102-PadA10)">
+      <node ref="J102" pin="A10"/>
+    </net>
+    <net code="367" name="Net-(J102-PadB8)">
+      <node ref="J102" pin="B8"/>
+    </net>
+    <net code="368" name="Net-(J102-PadA7)">
+      <node ref="J102" pin="B7"/>
+      <node ref="R127" pin="2"/>
+      <node ref="J102" pin="A7"/>
+    </net>
+    <net code="369" name="Net-(J102-PadA6)">
+      <node ref="R128" pin="2"/>
+      <node ref="J102" pin="B6"/>
+      <node ref="J102" pin="A6"/>
+    </net>
+    <net code="370" name="Net-(J102-PadB5)">
+      <node ref="R126" pin="2"/>
+      <node ref="J102" pin="B5"/>
+    </net>
+    <net code="371" name="Net-(J102-PadB3)">
+      <node ref="J102" pin="B3"/>
+    </net>
+    <net code="372" name="Net-(U103-Pad4)">
+      <node ref="U103" pin="4"/>
+    </net>
+    <net code="373" name="/+3.3_5">
+      <node ref="C111" pin="1"/>
+      <node ref="C113" pin="1"/>
+      <node ref="C108" pin="2"/>
+      <node ref="U105" pin="2"/>
+      <node ref="U103" pin="5"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="374" name="Net-(U111-Pad20)">
+      <node ref="U111" pin="20"/>
+    </net>
+    <net code="375" name="Net-(U111-Pad22)">
+      <node ref="U111" pin="22"/>
+    </net>
+    <net code="376" name="Net-(U111-Pad33)">
+      <node ref="U111" pin="33"/>
+    </net>
+    <net code="377" name="Net-(U111-Pad32)">
+      <node ref="U111" pin="32"/>
+    </net>
+    <net code="378" name="Net-(U111-Pad34)">
+      <node ref="U111" pin="34"/>
+    </net>
+    <net code="379" name="Net-(U111-Pad28)">
+      <node ref="U111" pin="28"/>
+    </net>
+    <net code="380" name="/ACTIONLLED5">
+      <node ref="U105" pin="4"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="381" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="382" name="Net-(U120-Pad7)">
+      <node ref="U120" pin="7"/>
+    </net>
+    <net code="383" name="Net-(U120-Pad24)">
+      <node ref="U120" pin="24"/>
+    </net>
+    <net code="384" name="Net-(U120-Pad16)">
+      <node ref="U120" pin="16"/>
+    </net>
+    <net code="385" name="Net-(U120-Pad26)">
+      <node ref="U120" pin="26"/>
+    </net>
+    <net code="386" name="Net-(U120-Pad36)">
+      <node ref="U120" pin="36"/>
+    </net>
+    <net code="387" name="Net-(U120-Pad37)">
+      <node ref="U120" pin="37"/>
+    </net>
+    <net code="388" name="Net-(U120-Pad35)">
+      <node ref="U120" pin="35"/>
+    </net>
+    <net code="389" name="Net-(U120-Pad29)">
+      <node ref="U120" pin="29"/>
+    </net>
+    <net code="390" name="Net-(U120-Pad19)">
+      <node ref="U120" pin="19"/>
+    </net>
+    <net code="391" name="Net-(U120-Pad18)">
+      <node ref="U120" pin="18"/>
+    </net>
+    <net code="392" name="Net-(U120-Pad17)">
+      <node ref="U120" pin="17"/>
+    </net>
+    <net code="393" name="Net-(U120-Pad12)">
+      <node ref="U120" pin="12"/>
+    </net>
+    <net code="394" name="Net-(U120-Pad25)">
+      <node ref="U120" pin="25"/>
+    </net>
+    <net code="395" name="Net-(U120-Pad6)">
+      <node ref="U120" pin="6"/>
+    </net>
+    <net code="396" name="Net-(U120-Pad15)">
+      <node ref="U120" pin="15"/>
+    </net>
+    <net code="397" name="Net-(U120-Pad39)">
+      <node ref="U120" pin="39"/>
+    </net>
+    <net code="398" name="Net-(U120-Pad31)">
+      <node ref="U120" pin="31"/>
+    </net>
+    <net code="399" name="Net-(U120-Pad30)">
+      <node ref="U120" pin="30"/>
+    </net>
+    <net code="400" name="Net-(U120-Pad23)">
+      <node ref="U120" pin="23"/>
+    </net>
+    <net code="401" name="Net-(U120-Pad11)">
+      <node ref="U120" pin="11"/>
+    </net>
+    <net code="402" name="Net-(U120-Pad5)">
+      <node ref="U120" pin="5"/>
+    </net>
+    <net code="403" name="Net-(U120-Pad10)">
+      <node ref="U120" pin="10"/>
+    </net>
+    <net code="404" name="Net-(U120-Pad9)">
+      <node ref="U120" pin="9"/>
+    </net>
+    <net code="405" name="/ACTIONLLED4">
+      <node ref="U120" pin="4"/>
+      <node ref="D109" pin="2"/>
+    </net>
+    <net code="406" name="Net-(D109-Pad1)">
+      <node ref="R123" pin="1"/>
+      <node ref="D109" pin="1"/>
+    </net>
+    <net code="407" name="Net-(SW133-Pad2)">
+      <node ref="U120" pin="27"/>
+      <node ref="SW133" pin="2"/>
+    </net>
+    <net code="408" name="Net-(U113-Pad4)">
+      <node ref="U113" pin="4"/>
+    </net>
+    <net code="409" name="Net-(U120-Pad38)">
+      <node ref="U120" pin="38"/>
+    </net>
+    <net code="410" name="Net-(U120-Pad8)">
+      <node ref="U120" pin="8"/>
+    </net>
+    <net code="411" name="Net-(U120-Pad21)">
+      <node ref="U120" pin="21"/>
+    </net>
+    <net code="412" name="Net-(U120-Pad20)">
+      <node ref="U120" pin="20"/>
+    </net>
+    <net code="413" name="Net-(U120-Pad22)">
+      <node ref="U120" pin="22"/>
+    </net>
+    <net code="414" name="Net-(U120-Pad33)">
+      <node ref="U120" pin="33"/>
+    </net>
+    <net code="415" name="Net-(U120-Pad32)">
+      <node ref="U120" pin="32"/>
+    </net>
+    <net code="416" name="Net-(U120-Pad34)">
+      <node ref="U120" pin="34"/>
+    </net>
+    <net code="417" name="Net-(U120-Pad28)">
+      <node ref="U120" pin="28"/>
+    </net>
+    <net code="418" name="/RST4">
+      <node ref="SW131" pin="2"/>
+      <node ref="U120" pin="3"/>
+      <node ref="C147" pin="1"/>
+      <node ref="R121" pin="2"/>
+    </net>
+    <net code="419" name="/+3.3_4">
+      <node ref="C149" pin="2"/>
+      <node ref="R121" pin="1"/>
+      <node ref="C153" pin="1"/>
+      <node ref="C151" pin="1"/>
+      <node ref="U120" pin="2"/>
+      <node ref="U118" pin="5"/>
+    </net>
+    <net code="420" name="/D4-">
+      <node ref="U120" pin="13"/>
+      <node ref="SW129" pin="4"/>
+    </net>
+    <net code="421" name="/D4+">
+      <node ref="U120" pin="14"/>
+      <node ref="SW129" pin="3"/>
+    </net>
+    <net code="422" name="Net-(U118-Pad4)">
+      <node ref="U118" pin="4"/>
+    </net>
+  </nets>
+</export>
